@@ -8,7 +8,6 @@ sequence = list((map(int, input().split())))
 X = int(input())
 sequence.append(X)
 sequence.sort()
-print(sequence)
 place = 0
 for i in range(0, len(sequence)):
     if X >= sequence[i]:
