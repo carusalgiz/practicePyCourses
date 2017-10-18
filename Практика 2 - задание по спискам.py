@@ -10,8 +10,7 @@ sequence.append(X)
 sequence.sort()
 print(sequence)
 place = 0
-i = 0
-for i in range(len(sequence)):
+for i in range(0, len(sequence)):
     if X >= sequence[i]:
         i +=1
         continue
