@@ -11,11 +11,10 @@ X = int(input())
 sequence.append(X)
 sequence.sort()
 place = 0
-for i in range(0, len(sequence)):
-    if X >= sequence[i]:
-        i +=1
+for idx, item in enumerate(sequence):
+    if X >= sequence[idx]:
         continue
     else:
-        place = i-1
+        place = idx-1
         break
 print(place)
