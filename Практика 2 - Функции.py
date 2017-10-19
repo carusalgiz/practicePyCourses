@@ -19,5 +19,4 @@ def is_prime(x : int) -> bool:
 
 
 q = int(input())
-print(is_prime(q))
-О
+is_prime(q)
