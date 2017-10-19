@@ -19,4 +19,4 @@ def is_prime(x):
 
 
 q = int(input())
-print(is_prime(q))
+is_prime(q)
