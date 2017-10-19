@@ -4,7 +4,7 @@
 """
 
 
-def is_prime(x):
+def is_prime(x : int) -> bool: 
     check = False
     if x == 2:
         check = True
@@ -20,3 +20,4 @@ def is_prime(x):
 
 q = int(input())
 print(is_prime(q))
+О
